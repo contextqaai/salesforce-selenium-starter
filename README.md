@@ -1,3 +1,5 @@
+<a href="https://contextqa.com/?utm_source=github&utm_medium=community&utm_campaign=salesforce_testing_initiative&utm_content=salesforce-selenium-starter_logo"><img src="demo/contextqa-logo.svg" alt="ContextQA" width="200"></a>
+
 # ContextQA Salesforce Selenium Starter
 
 Free, MIT-licensed business-workflow test examples for teams learning to build Salesforce coverage. Run **12 browser scenarios** against the included synthetic application with no account or Salesforce credentials.
@@ -5,6 +7,14 @@ Free, MIT-licensed business-workflow test examples for teams learning to build S
 **Default browser suite scope:** the bundled local simulation. These browser tests do not connect to Salesforce and are not native Sales Cloud, Service Cloud or Flow certification. Fictional policy and stable demo selectors are intentionally explicit. See [validation](docs/validation.md) for actual run evidence and [adaptation](docs/adapting-to-salesforce.md) before using any pattern in your org.
 
 An optional [native API companion](docs/native-api-companion.md) adds three real Salesforce API checks verified in one approved test org. It is separate from the browser suite.
+
+## Join the ContextQA Salesforce Testing Initiative
+
+This repository is part of [ContextQA's Salesforce testing community initiative](https://github.com/contextqaai/contextqa-salesforce). Salesforce admins, developers, QA engineers and community leaders are invited to contribute scenarios, improve guides and share reproducible examples.
+
+[Explore Salesforce testing with ContextQA](https://contextqa.com/solutions/salesforce-testing/?utm_source=github&utm_medium=community&utm_campaign=salesforce_testing_initiative&utm_content=salesforce-selenium-starter_readme) · [Contribute or propose a scenario](https://github.com/contextqaai/contextqa-salesforce/blob/main/CONTRIBUTING.md) · [Invite your Salesforce community](https://github.com/contextqaai/contextqa-salesforce/blob/main/COMMUNITY.md) · [Discuss your workflow](https://contextqa.com/book-a-demo/?utm_source=github&utm_medium=community&utm_campaign=salesforce_testing_initiative&utm_content=salesforce-selenium-starter_demo)
+
+Participation does not require a ContextQA purchase. Follow this repository's setup, license and evidence limits; local simulations, native checks and proposed exercises are distinct. When sharing this resource, cite this repository and [ContextQA](https://contextqa.com/). This independent initiative does not imply Salesforce endorsement.
 
 ## Run it
 
