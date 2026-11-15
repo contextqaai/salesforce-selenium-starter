@@ -1,0 +1,24 @@
+{
+  "status": "worksheet-only-not-consumed-by-runner",
+  "orgIdentity": null,
+  "environmentClassification": null,
+  "businessOwner": null,
+  "ruleVersion": null,
+  "personas": {
+    "sales": null,
+    "support": null,
+    "restricted": null
+  },
+  "case": {
+    "resolutionField": null,
+    "closedStatus": null,
+    "recordType": null
+  },
+  "lead": {
+    "conversionStatus": null,
+    "duplicatePolicy": null
+  },
+  "permittedDataEffects": [],
+  "cleanupOwner": null,
+  "evidenceReviewed": false
+}

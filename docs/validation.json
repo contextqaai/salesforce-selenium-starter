@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-15T05:14:40.738486+00:00",
+  "framework": "selenium",
+  "target": "local synthetic workflow lab; no Salesforce org accessed",
+  "host": "macOS arm64",
+  "node": "24.19.0",
+  "baseline": {
+    "command": "npm test",
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0
+  },
+  "faultDetection": [
+    {
+      "fault": "closure",
+      "scenario": "service.required",
+      "exitCode": 1,
+      "detected": true
+    },
+    {
+      "fault": "permission",
+      "scenario": "service.role",
+      "exitCode": 1,
+      "detected": true
+    },
+    {
+      "fault": "routing",
+      "scenario": "flow.equal",
+      "exitCode": 1,
+      "detected": true
+    }
+  ],
+  "cleanup": "Each test deletes its session and checks subsequent state read returns 401",
+  "sourceSha256": {
+    "demo/index.html": "f3a11ecf4faf78e9af340fa94e4066f3c41ca4ddff576b616b1b3e58cb76c2b8",
+    "demo/contextqa-logo.svg": "86da68b1aaca82c28d0d7c20b933a0196ac7c83627de5be0193ad90c40afc81e",
+    "demo/server.mjs": "a07fde752a93a738ae7d5efc21c3621082f5a5fa31ee0d39f6d0d46521896eb1",
+    "tests/scenarios.mjs": "f1c2df54087b1c98d9df45627859ccd2ea1b216c7d74af6f74658848ac37a73c",
+    "tests/workflows.test.mjs": "ba7e69d7343d727af2c494954113c259dab017234200406953a7327c6312408f",
+    "scripts/verify-mutations.mjs": "0ec830e3011a2b50f3fa1ebd27c9c029ff0837247fe305f7be6f85ec489d82d4"
+  },
+  "nativeSalesforceVerified": false,
+  "ci": "See GitHub Actions for independent Linux validation; no CI result inferred here"
+}

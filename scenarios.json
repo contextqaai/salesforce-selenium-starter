@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sales.valid",
+    "module": "Sales Cloud",
+    "outcome": "Convert a lead and verify linked account/contact/opportunity",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "sales.required",
+    "module": "Sales Cloud",
+    "outcome": "Reject blank company and retain original state",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "sales.duplicate",
+    "module": "Sales Cloud",
+    "outcome": "Reject repeat conversion without duplicate records",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "sales.role",
+    "module": "Permissions",
+    "outcome": "Reject lead conversion by restricted role",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "service.valid",
+    "module": "Service Cloud",
+    "outcome": "Close with evidence and verify saved state",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "service.required",
+    "module": "Service Cloud",
+    "outcome": "Reject closure without evidence",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "service.role",
+    "module": "Permissions",
+    "outcome": "Reject closure by restricted role",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "flow.below",
+    "module": "Flow policy simulation",
+    "outcome": "Score 49 routes to Standard",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "flow.equal",
+    "module": "Flow policy simulation",
+    "outcome": "Score 50 routes to Priority",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "flow.above",
+    "module": "Flow policy simulation",
+    "outcome": "Score 51 routes to Priority",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "flow.invalid",
+    "module": "Flow policy simulation",
+    "outcome": "Reject score outside 0-100",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  },
+  {
+    "id": "flow.role",
+    "module": "Permissions",
+    "outcome": "Reject routing by restricted role",
+    "target": "bundled synthetic application",
+    "status": "demo-tested; native Salesforce unverified"
+  }
+]
