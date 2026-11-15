@@ -10,7 +10,9 @@
     "test": "node --test --test-concurrency=1 tests/workflows.test.mjs",
     "test:headed": "HEADLESS=0 npm test",
     "test:mutations": "node scripts/verify-mutations.mjs",
-    "demo": "node demo/server.mjs"
+    "demo": "node demo/server.mjs",
+    "test:native": "node native/run.mjs",
+    "test:native:preflight": "node --test native/preflight.test.mjs"
   },
   "devDependencies": {
     "selenium-webdriver": "4.40.0"

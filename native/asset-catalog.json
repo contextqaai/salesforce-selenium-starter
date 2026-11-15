@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "nativeExecution": "opt-in",
+  "nativeUiAdapter": false,
+  "packs": [
+    {
+      "id": "SF-SALES-001",
+      "scope": "Native lead conversion without opportunity",
+      "status": "reference-api-tested"
+    },
+    {
+      "id": "SF-SERVICE-001",
+      "scope": "Native case closure with evidence and owner assertions",
+      "status": "reference-api-tested"
+    },
+    {
+      "id": "SF-SALES-NEG-001",
+      "scope": "Required Name rejection and no record created",
+      "status": "reference-api-tested"
+    },
+    {
+      "id": "SF-PLATFORM-001",
+      "scope": "Configured rule/Flow readiness",
+      "status": "reference-discovery-only"
+    },
+    {
+      "id": "SF-PERMISSIONS-001",
+      "scope": "Restricted persona and effective sharing",
+      "status": "needs-approved-persona"
+    }
+  ]
+}

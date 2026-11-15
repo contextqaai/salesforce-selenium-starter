@@ -2,7 +2,9 @@
 
 Free, MIT-licensed business-workflow test examples for teams learning to build Salesforce coverage. Run **12 browser scenarios** against the included synthetic application with no account or Salesforce credentials.
 
-**Verified scope:** the bundled local simulation. These tests do not connect to Salesforce and are not native Sales Cloud, Service Cloud or Flow certification. Fictional policy and stable demo selectors are intentionally explicit. See [validation](docs/validation.md) for actual run evidence and [adaptation](docs/adapting-to-salesforce.md) before using any pattern in your org.
+**Default browser suite scope:** the bundled local simulation. These browser tests do not connect to Salesforce and are not native Sales Cloud, Service Cloud or Flow certification. Fictional policy and stable demo selectors are intentionally explicit. See [validation](docs/validation.md) for actual run evidence and [adaptation](docs/adapting-to-salesforce.md) before using any pattern in your org.
+
+An optional [native API companion](docs/native-api-companion.md) adds three real Salesforce API checks verified in one approved test org. It is separate from the browser suite.
 
 ## Run it
 
@@ -51,3 +53,7 @@ Use, modify and run the source locally under the [MIT license](LICENSE). Context
 [Explore ContextQA](https://contextqa.com/?utm_source=github&utm_medium=developer_referral&utm_campaign=salesforce_selenium_starter&utm_content=readme) · [Discuss a workflow](https://contextqa.com/book-a-demo/?utm_source=github&utm_medium=developer_referral&utm_campaign=salesforce_selenium_starter&utm_content=workflow_help) · [Salesforce learning guides](https://learning.contextqa.com/packaged-application-testing/salesforce-testing)
 
 [Playwright edition](https://github.com/contextqaai/salesforce-playwright-starter) contains the same business scenarios in the other framework.
+
+## Native Salesforce API companion
+
+Three opt-in native API checks were verified in one approved test org: lead conversion, case closure and required-field rejection, with cleanup. These use Node HTTP in both repos and are separate from synthetic browser coverage. See [setup, evidence and limitations](docs/native-api-companion.md).

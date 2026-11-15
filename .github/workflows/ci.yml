@@ -13,6 +13,8 @@ jobs:
           node-version: '22'
           cache: npm
       - run: npm ci
+      - name: Native companion safety guards (offline)
+        run: npm run test:native:preflight
       - name: Baseline browser scenarios
         run: npm test
       - name: Deliberate defect detection

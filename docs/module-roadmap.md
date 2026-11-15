@@ -1,11 +1,11 @@
 # Module readiness
 
-Only the synthetic scenarios in `scenarios.json` are implemented in this release. The following is a roadmap, not available native product coverage.
+The twelve synthetic browser scenarios and three opt-in native API companion journeys are implemented. Native API reference validation covers one approved test org. The remaining rows are a roadmap, not product-wide coverage.
 
 | Module | Current deliverable | Next requirement |
 | --- | --- | --- |
-| Sales Cloud | Synthetic lead-conversion examples | Native mappings and approved reference-org run |
-| Service Cloud | Synthetic closure examples | Actual closure policy, persona and reference-org run |
+| Sales Cloud | Synthetic browser examples + native API conversion | Broader Sales journeys and native UI/persona verification |
+| Service Cloud | Synthetic browser examples + native API closure | Enforced closure-policy negatives and role/UI verification |
 | Permissions / Flow | Synthetic role and routing examples | Salesforce identity/sharing and active Flow assertions |
 | Integrations / release | Adaptation guidance | Downstream contracts and scoped evidence |
 | Revenue Cloud / CPQ / Billing | Planned | Separate product adapters, pricing and approval rules |

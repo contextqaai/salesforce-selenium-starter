@@ -1,6 +1,6 @@
 # Adapt to a real Salesforce org
 
-This release ships no runnable native Salesforce adapter. Demo selectors and fictional roles are not substitutes for org-specific implementation. The mapping example is a worksheet, not executable runtime configuration.
+This release includes an opt-in [native API companion](native-api-companion.md), verified in one approved reference org. It ships no native Lightning UI adapter. Demo selectors and fictional roles are not substitutes for org-specific implementation. The mapping example is a worksheet, not executable runtime configuration.
 
 ## Capture the contract first
 
